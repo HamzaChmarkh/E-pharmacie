@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    tools:context=".user.HomeFragmentUser">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:text="Conseils en nutrition"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/tvDetails1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Mangez des protéines maigres comme du poulet, du poisson, des légumineuses et des produits laitiers faibles en gras pour soutenir la croissance musculaire et la santé globale."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvDetails3"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consommez des graisses saines telles que celles trouvées dans les avocats, les noix et les huiles végétales non saturées en quantités modérées."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvDetails4"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Privilégiez les aliments riches en fibres comme les céréales complètes, les légumes verts et les fruits pour favoriser la santé digestive et maintenir un poids santé."
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvDetails5"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limitez la consommation de boissons sucrées et de snacks riches en sucres ajoutés, optez plutôt pour des collations saines comme des fruits frais, des noix ou du yaourt nature."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvDetails6"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Préparez vos repas à la maison autant que possible pour contrôler les portions, les ingrédients et la qualité nutritionnelle de vos aliments."
+            android:textSize="16sp" />
+
+        <!-- Ajoutez d'autres TextViews pour les autres conseils de la même manière -->
+
+    </LinearLayout>
+
+
+</FrameLayout>

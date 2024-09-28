@@ -1,0 +1,289 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.HomeAdminActivity">
+
+    <!-- Image Slider -->
+
+
+    <TextView
+        android:id="@+id/imageView2"
+        android:layout_width="85dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="4dp"
+        android:gravity="center"
+        android:text="Conseils "
+        android:textColor="@color/lavender"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/imageSlider"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/imageView2"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        />
+
+    <!-- Category TextView -->
+    <TextView
+        android:id="@+id/textcat"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageSlider"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Categories"
+        android:textColor="@color/grey"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <!-- See All Categories TextView -->
+
+    <!-- HorizontalScrollView for Categories -->
+
+    <TextView
+        android:id="@+id/seeall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textcat"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="-142dp"
+        android:text="See All"
+        android:textColor="@color/lavender"
+        android:textSize="15sp" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textcat"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/white_background2"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- First Category LinearLayout -->
+            <LinearLayout
+                android:id="@+id/lin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/img_category_icon"
+                    android:layout_width="113dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="Category Icon"
+                    android:src="@drawable/oreilles" />
+
+                <TextView
+                    android:id="@+id/tv_category_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="40dp"
+                    android:text="Ears"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <!-- Second Category LinearLayout -->
+            <LinearLayout
+                android:id="@+id/lin1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/img_category_icon1"
+                    android:layout_width="113dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="Category Icon"
+                    android:src="@drawable/nez" />
+
+                <TextView
+                    android:id="@+id/tv_category_name1"
+                    android:layout_width="97dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:gravity="center"
+                    android:text="Nose"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/img_category_icon2"
+                    android:layout_width="113dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="Category Icon"
+                    android:src="@drawable/eyes" />
+
+                <TextView
+                    android:id="@+id/tv_category_name2"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:text="Eyes"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/img_category_icon3"
+                    android:layout_width="113dp"
+                    android:layout_height="49dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="Category Icon"
+                    android:src="@drawable/muscle" />
+
+                <TextView
+                    android:id="@+id/tv_category_name3"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="15dp"
+                    android:text="Muscle"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- See All TextView -->
+
+    <!-- Forward Arrow ImageView -->
+
+
+    <!-- RecyclerView -->
+
+    <TextView
+        android:id="@+id/seeallcate"
+        android:layout_width="65dp"
+        android:layout_height="22dp"
+        android:layout_below="@+id/imageSlider"
+        android:layout_alignBottom="@+id/textcat"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toEndOf="@+id/textcat"
+        android:text="See All"
+        android:textColor="@color/lavender"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/horizontalScrollView2"
+        android:layout_alignStart="@+id/textcat"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="132dp"
+        android:layout_toStartOf="@+id/seeall"
+        android:text="Products"
+        android:textColor="@color/grey"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:layout_below="@id/seeall"
+        android:layout_marginTop="150dp"
+        android:scrollbars="vertical" />
+
+    <LinearLayout
+        android:id="@+id/navigationButtonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/lavender"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:drawableLeft="@drawable/ic_home"
+            android:paddingStart="5mm" />
+
+        <Button
+            android:id="@+id/cartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:drawableLeft="@drawable/ic_shopping_cart_24dp"
+            android:paddingStart="5mm" />
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:paddingStart="5mm" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:drawableLeft="@drawable/ic_logout"
+            android:paddingStart="5mm" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

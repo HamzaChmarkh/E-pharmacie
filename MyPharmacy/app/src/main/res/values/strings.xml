@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyPharmacy</string>
+    <string name="screen1">Online Pharmacy</string>
+    <string name="screen2">Track order !!</string>
+    <string name="screen3">Get your order !!</string>
+    <string name="screen1desc"></string>
+    <string name="screen2desc"> </string>
+    <string name="screen3desc"></string>
+    <string name="startDesc">Create a long video or shorts and upload on youtube. Interact with your subscribers on youtube live.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+</resources>

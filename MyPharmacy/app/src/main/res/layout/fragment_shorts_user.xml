@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    tools:context=".user.ShortsFragmentUser">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Conseils en prévention des maladies"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/tvDetails1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Pratiquez une bonne hygiène des mains en vous lavant fréquemment les mains avec du savon et de l'eau pendant au moins 20 secondes, surtout après être allé aux toilettes et avant de manger."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvDetails3"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Évitez le tabagisme et l'exposition à la fumée secondaire, car le tabagisme est lié à de nombreux problèmes de santé graves tels que le cancer, les maladies cardiaques et respiratoires."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvDetails4"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Effectuez des examens de santé réguliers, y compris des tests de dépistage du cancer, du diabète et des maladies cardiaques, en fonction de vos antécédents familiaux et de vos facteurs de risque personnels."
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvDetails5"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suivez un régime alimentaire équilibré et maintenez un poids santé pour réduire le risque de maladies chroniques telles que le diabète de type 2, l'hypertension et les maladies cardiaques."
+            android:textSize="16sp" />
+
+
+
+        <!-- Ajoutez d'autres TextViews pour les autres conseils de la même manière -->
+
+    </LinearLayout>
+
+</FrameLayout>

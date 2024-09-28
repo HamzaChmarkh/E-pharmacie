@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    tools:context=".user.LibraryFragmentUser">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:gravity="center"
+        android:text="Conseils en activité physique"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/tvDetails1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Intégrez des activités de renforcement musculaire telles que des poids libres, des bandes de résistance ou des exercices au poids du corps dans votre routine d'exercice pour améliorer la force et la densité osseuse."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvDetails3"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Variez vos séances d'entraînement en essayant différents types d'exercices comme la natation, le cyclisme, la danse ou le kickboxing pour maintenir votre motivation et travailler différents groupes musculaires."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvDetails4"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fixez-vous des objectifs spécifiques et mesurables, comme courir un certain nombre de kilomètres par semaine ou soulever un certain poids, pour suivre vos progrès et rester motivé."
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvDetails5"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entraînez-vous avec un partenaire d'exercice ou rejoignez des groupes de fitness pour profiter du soutien social, de la responsabilité et de l'inspiration mutuelle."
+            android:textSize="16sp" />
+
+
+
+        <!-- Ajoutez d'autres TextViews pour les autres conseils de la même manière -->
+
+    </LinearLayout>
+</FrameLayout>

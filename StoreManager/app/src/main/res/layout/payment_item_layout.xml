@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recCard"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+    android:focusable="true">
+
+  <LinearLayout
+      android:layout_width="369dp"
+      android:layout_height="match_parent"
+      android:layout_marginStart="16dp"
+      android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/textViewUser1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user : "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="user"
+        android:textStyle="bold"
+        android:textColor="@color/lavender" />
+    <TextView
+        android:id="@+id/textViewCardNumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewCardNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Phone Number"
+        android:textStyle="bold"
+        android:textColor="@color/lavender" />
+
+    <TextView
+        android:id="@+id/textViewAddress1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ville: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Address"
+        android:textStyle="bold"
+        android:textColor="@color/lavender" />
+
+    <TextView
+        android:id="@+id/textViewRue1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rue: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewRue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Rue"
+        android:textStyle="bold"
+        android:textColor="@color/lavender" />
+
+    <TextView
+        android:id="@+id/textViewDate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of payment: "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Date "
+        android:textStyle="bold"
+        android:textColor="@color/lavender" />
+
+    <TextView
+        android:id="@+id/TextTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total : "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="total"
+        android:textStyle="bold"
+        android:textColor="@color/lavender" />
+
+
+    <TextView
+        android:id="@+id/items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Products : "
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/scrollview_background"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textrue">
+
+      <TextView
+          android:id="@+id/textViewItemDetails"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/textview_background"
+          android:fontFamily="sans-serif-medium"
+          android:padding="8dp"
+          android:text="Item Details"
+          android:textColor="@color/black"
+          android:textSize="18sp" />
+    </ScrollView>
+
+  </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    tools:context=".user.SubscriptionFragmentUser">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:gravity="center"
+        android:text="Conseils en sommeil"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/tvDetails1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Établissez une routine de relaxation avant le coucher, comme lire un livre apaisant, méditer ou prendre un bain chaud pour signaler à votre corps qu'il est temps de se détendre."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvDetails3"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Créez un environnement de sommeil confortable en utilisant des oreillers et matelas adaptés à vos besoins, en maintenant une température fraîche et en bloquant la lumière excessive."
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvDetails4"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Évitez les écrans lumineux des téléphones, tablettes et ordinateurs au moins une heure avant de dormir, car la lumière bleue peut perturber votre rythme circadien."
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/tvDetails5"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Établissez des horaires de sommeil réguliers en vous couchant et en vous levant à la même heure tous les jours, même le week-end, pour stabiliser votre cycle de sommeil."
+            android:textSize="16sp" />
+
+
+
+        <!-- Ajoutez d'autres TextViews pour les autres conseils de la même manière -->
+
+    </LinearLayout>
+
+</FrameLayout>
